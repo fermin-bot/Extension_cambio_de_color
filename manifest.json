@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Fermin",
+  "description": "Extension functionality ...",
+  "version": "1",
+  "icons": {
+    "32": "icon_128.png"
+  },
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "storage",
+      "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://www.google.com/*"
+  ]
+}
+   
+   
